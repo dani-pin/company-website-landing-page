@@ -1,0 +1,8 @@
+.gradient-text {
+    background-color: var(--blue-500);
+    background-image: linear-gradient(to right, var(--blue-700), var(--pink-700));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
