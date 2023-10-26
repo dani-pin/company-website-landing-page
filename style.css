@@ -6,3 +6,9 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+.bg-img-form {
+    background-image: url(./images/bg-form.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

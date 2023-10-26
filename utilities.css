@@ -4,8 +4,9 @@
     --grey-500: #555555;
     --grey-700: #333333;
     --grey-900: #222222;
-    --blue-100: #dbeefd;
-    --blue-200: #C4D4FF;
+    --blue-100: #EFF7FF;
+    --blue-200: #dbeefd;
+    --blue-300: #C4D4FF;
     --blue-500: #0048FF;
     --blue-600: #1C00FF;
     --blue-700: #002BC2;
@@ -127,8 +128,7 @@
     border: none;
     color: var(--white-color);
     background-image: linear-gradient(to right, var(--blue-700), var(--blue-900));
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 35px;
 }
 
 .main-title {
@@ -151,6 +151,10 @@
     display: block;
 }
 
+.flex-200px {
+    flex: 200px;
+}
+
 .flex-1 {
     flex: 1;
 }
@@ -163,8 +167,16 @@
     flex: 3;
 }
 
+.h-80 {
+    height: 80%;
+}
+
 .h-100 {
     height: 100%;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 .w-7 {
@@ -176,7 +188,7 @@
 }
 
 .border-blue {
-    border: solid 15px var(--blue-100);
+    border: solid 15px var(--blue-200);
 }
 
 .border-rounded-150 {
@@ -203,9 +215,22 @@
     border-bottom-left-radius: 150px;
 }
 
+.border-rounded-rb-50px {
+    border-bottom-right-radius: 50px;
+}
+
+.border-rounded-lb-50px {
+    border-bottom-left-radius: 50px;
+}
+
 .py-0 {
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .px-4 {
@@ -268,12 +293,37 @@
     margin-right: 10rem;
 }
 
+.ms-100px {
+    margin-left: 100px;
+}
+
+.ms-3 {
+    margin-left: 3rem;
+}
+
+.ms-4 {
+    margin-left: 4rem;
+}
+
+.ms-5 {
+    margin-left: 5rem;
+}
+
 .ms-6 {
     margin-left: 6rem;
 }
 
+.ms-8 {
+    margin-left: 8rem;
+}
+
 .ms-10 {
     margin-left: 10rem;
+}
+
+
+.me-100px {
+    margin-right: 100px;
 }
 
 .me-6 {
@@ -294,6 +344,10 @@
 
 .mt-1 {
     margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
 }
 
 .mt-5 {
@@ -352,6 +406,18 @@
 
 .pe-8 {
     padding-right: 8rem;
+}
+
+.pe-10 {
+    padding-right: 10rem;
+}
+
+.pe-13 {
+    padding-right: 13rem;
+}
+
+.pe-18 {
+    padding-right: 18rem;
 }
 
 .ps-8 {
@@ -472,12 +538,12 @@
     background-color: var(--grey-900)
 }
 
-.bg-blue-100 {
-    background-color: var(--blue-100)
-}
-
 .bg-blue-200 {
     background-color: var(--blue-200)
+}
+
+.bg-blue-300 {
+    background-color: var(--blue-300)
 }
 
 .bg-blue-500 {
@@ -548,12 +614,12 @@
     color: var(--grey-900)
 }
 
-.color-blue-100 {
-    color: var(--blue-100)
-}
-
 .color-blue-200 {
     color: var(--blue-200)
+}
+
+.color-blue-300 {
+    color: var(--blue-300)
 }
 
 .color-blue-500 {
