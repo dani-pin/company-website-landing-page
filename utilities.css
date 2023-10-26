@@ -143,6 +143,14 @@
     display: flex;
 }
 
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
 .flex-1 {
     flex: 1;
 }
@@ -203,6 +211,11 @@
 .px-4 {
     padding-left: 4rem;
     padding-right: 4rem;
+}
+
+.px-8 {
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 .py-5 {
@@ -311,6 +324,10 @@
 .my-3 {
     margin-bottom: 3rem;
     margin-top: 3rem;
+}
+
+.p-3 {
+    padding: 3rem;
 }
 
 .p-4 {
