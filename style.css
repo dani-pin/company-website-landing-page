@@ -7,8 +7,39 @@
     -moz-text-fill-color: transparent;
 }
 
+.btn-primary {
+    border: var(--blue-500) solid 2px;
+    color: var(--blue-500);
+}
+
+.btn-pink {
+    border: var(--pink-200) solid 2px;
+    font-weight: 500;
+}
+
+.btn-form {
+    background-color: var(--blue-500);
+    border: none;
+    color: var(--white-color);
+    font-weight: 600;
+    padding: 8px 65px;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    border: none;
+    color: var(--white-color);
+    background-image: linear-gradient(to right, var(--blue-700), var(--blue-900));
+    padding: 15px 35px;
+}
+
 .bg-img-form {
     background-image: url(./images/bg-form.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: var(--grey-300);
 }
