@@ -18,8 +18,8 @@
 
 <body>
     <nav class="bg-grey-100">
-        <div class="container py-1.5">
-            <div class="flex justify-space-between">
+        <div class="container py-1.5 container-nav-sm">
+            <div class="flex justify-space-between align-items-center navbar">
                 <svg width="85" height="60" viewBox="0 0 92 69" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="34.7495" cy="34.3882" r="30" fill="#141414" />
                     <circle cx="76.6816" cy="34.3882" r="15" fill="url(#paint0_linear_358_4)" />
@@ -37,39 +37,36 @@
                     </defs>
                 </svg>
 
-                <ul class="flex list-style-none ps-0 align-items-center fw-500 fs-13px">
-                    <li class="me-4"><a class="text-decoration-none color-grey-700" href="#">Home</a></li>
-                    <li class="me-4"><a class="text-decoration-none color-grey-700" href="#">About</a></li>
-                    <li class="me-4"><a class="text-decoration-none color-grey-700" href="#">Our Services</a></li>
-                    <li class="me-4"><a class="text-decoration-none color-grey-700" href="#">Service Map</a></li>
-                    <li><a class="text-decoration-none color-grey-700" href="#">Contact Us</a></li>
+                <ul class="flex list-style-none ps-0 align-items-center fw-500 fs-13px navbar-options">
+                    <li class="me-4 nav-list-item"><a class="text-decoration-none color-grey-700" href="#">Home</a></li>
+                    <li class="me-4 nav-list-item"><a class="text-decoration-none color-grey-700" href="#">About</a>
+                    </li>
+                    <li class="me-4 nav-list-item"><a class="text-decoration-none color-grey-700" href="#">Our
+                            Services</a></li>
+                    <li class="me-4 nav-list-item"><a class="text-decoration-none color-grey-700" href="#">Service
+                            Map</a></li>
+                    <li class="nav-list-item"><a class="text-decoration-none color-grey-700" href="#">Contact Us</a>
+                    </li>
                 </ul>
 
-                <button class="btn btn-pink my-1">Sign In</button>
+                <button class="btn btn--pink my-1">Sign In</button>
             </div>
         </div>
         </div>
     </nav>
 
     <main>
-        <section class="container my-2">
-            <div class="flex align-items-center justify-space-between">
-                <div class="max-width-500">
-                    <h1 class="gradient-text pb-1 mb-0 fs-2">Providing Industry Leading Solutions for</h1>
-                    <p class="color-grey-500 fw-400 lh-2 mb-3 fs-13px ">Lorem ipsum dolor sit amet
+        <section class="container my-2 container-sm">
+            <div class="flex align-items-center justify-space-between hero-section">
+                <div class="max-width-500 hook-hero-section">
+                    <h1 class="gradient-text pb-1 mb-0 fs-2 hero-title">Providing Industry Leading Solutions for</h1>
+                    <p class=" hero-description color-grey-500 fw-400 lh-2 mb-3 fs-13px ">Lorem ipsum dolor sit amet
                         consectetur
-                        adipisicing
-                        elit.
-                        Molestias,
-                        iure
-                        vero, iste possimus,
-                        debitis
-                        ipsam blanditiis explicabo labore veritatis libero quidem temporibus? Minima ex dignissimos,
-                        officia
-                        cum facilis ea quasi!
-                        Itaque ut accusamus et ex ab quo quam!
+                        adipisicing elit. Molestias, iure vero, iste possimus, debitis ipsam blanditiis explicabo labore
+                        veritatis libero quidem temporibus? Minima ex dignissimos, officia cum facilis ea quasi! Itaque
+                        ut accusamus et ex ab quo quam!
                     </p>
-                    <button class="btn btn-secondary">Learn More <i class="bi bi-arrow-right"></i></button>
+                    <button class="btn btn--secondary">Learn More <i class="bi bi-arrow-right"></i></button>
                 </div>
                 <svg width="687" height="459" viewBox="0 0 687 459" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_d_355_3)">
@@ -633,31 +630,29 @@
             </div>
         </section>
 
-        <section class="container my-2">
-            <div class="bg-transparent border-blue-200 border-rounded-150 flex align-items-center">
+        <section class="container my-2 container-sm">
+            <div class="bg-transparent border-blue-200 border-rounded-150 flex align-items-center about-section">
                 <h2 class="color-blue-500 px-4">About <br> Company</h2>
                 <p
-                    class="color-grey-500 fw-400 lh-2 fs-13px bg-blue-200 my-0 flex-1 p-6 pe-8 border-rounded-right-100 ">
-                    Lorem ipsum
-                    dolor sit amet
-                    consectetur
-                    adipisicing
-                    elit. Molestias, iure vero, iste possimus, debitis
-                    ipsam blanditiis explicabo labore veritatis libero quidem temporibus? Minima ex dignissimos, officia
-                    cum facilis ea quasi! Itaque ut accusamus et ex ab quo quam!</p>
+                    class="color-grey-500 fw-400 lh-2 fs-13px bg-blue-200 my-0 flex-1 p-4 pe-8 border-rounded-right-100 ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, iure vero, iste possimus,
+                    debitis ipsam blanditiis explicabo labore veritatis libero quidem temporibus? Minima ex dignissimos,
+                    officia cum facilis ea quasi! Itaque ut accusamus et ex ab quo quam!</p>
             </div>
         </section>
 
-        <section class="container my-2">
+        <section class="container my-2 container-sm">
             <h2 class="color-blue-500 px-4 text-center mt-5 mb-3">Our Services</h2>
-            <div class="bg-pink-100 border-rounded-right-150 flex align-items-center my-2">
+
+            <div class="ad-panel ad-panel--pink">
                 <div class="ms-8">
-                    <h3 class="color-blue-800">Non-IT enterprises</h3>
-                    <p class="color-grey-500 fw-400 lh-1.5 fs-13px my-2 me-10">Lorem ipsum dolor sit amet
+                    <h3 class="ad-panel__title">Non-IT enterprises
+                    </h3>
+                    <p class="ad-panel__description">Lorem ipsum dolor sit amet
                         consectetur adipisicing elit. Molestias, iure vero, iste possimus, debitis ipsam blanditiis
                         explicabo labore veritatis libero
                     </p>
-                    <button class="btn btn-primary">Learn More <i class="bi bi-arrow-right"></i></button>
+                    <button class="btn btn--primary">Learn More <i class="bi bi-arrow-right"></i></button>
                 </div>
 
                 <svg class="me-100px my-2" width="375" height="240" viewBox="0 0 375 306" fill="none"
@@ -2169,9 +2164,9 @@
                 </svg>
             </div>
 
-            <div class="bg-purple-100 border-rounded-left-150 flex align-items-center my-2">
+            <div class="ad-panel ad-panel--purple">
 
-                <svg class="ms-100px my-2" width="375" height="240" viewBox="0 0 375 276" fill="none"
+                <svg class="ad-panel__img--purple" width="375" height="240" viewBox="0 0 375 276" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M337.057 257.007H312.282V257.194H337.057V257.007Z" fill="#EBEBEB" />
                     <path d="M248.278 259.042H241.778V259.229H248.278V259.042Z" fill="#EBEBEB" />
@@ -2710,24 +2705,27 @@
                         fill="#2A417D" />
                 </svg>
 
-                <div class="me-8">
-                    <h3 class="color-blue-800 ms-10">Software product companies</h3>
-                    <p class="color-grey-500 fw-400 lh-1.5 fs-13px my-2 ms-10">Lorem ipsum dolor sit amet
+                <div class="ms-8 purple-panel">
+                    <h3 class="ad-panel__title">Non-IT enterprises
+                    </h3>
+                    <p class="ad-panel__description">Lorem ipsum dolor sit amet
                         consectetur adipisicing elit. Molestias, iure vero, iste possimus, debitis ipsam blanditiis
                         explicabo labore veritatis libero
                     </p>
-                    <button class="btn btn-primary ms-10">Learn More <i class="bi bi-arrow-right"></i></button>
+                    <button class="btn btn--primary">Learn More <i class="bi bi-arrow-right"></i></button>
                 </div>
+
             </div>
 
-            <div class="bg-pink-100 border-rounded-right-150 flex align-items-center my-2">
+            <div class="ad-panel ad-panel--pink">
                 <div class="ms-8">
-                    <h3 class="color-blue-800">Non-IT enterprises</h3>
-                    <p class="color-grey-500 fw-400 lh-1.5 fs-13px my-2 me-10">Lorem ipsum dolor sit amet
+                    <h3 class="ad-panel__title">Non-IT enterprises
+                    </h3>
+                    <p class="ad-panel__description">Lorem ipsum dolor sit amet
                         consectetur adipisicing elit. Molestias, iure vero, iste possimus, debitis ipsam blanditiis
                         explicabo labore veritatis libero
                     </p>
-                    <button class="btn btn-primary">Learn More <i class="bi bi-arrow-right"></i></button>
+                    <button class="btn btn--primary">Learn More <i class="bi bi-arrow-right"></i></button>
                 </div>
 
                 <svg class="me-100px my-2" width="375" height="240" viewBox="0 0 375 306" fill="none"
@@ -4238,75 +4236,68 @@
                         stroke-miterlimit="10" />
                 </svg>
             </div>
+
         </section>
 
-        <section class="container my-2">
+        <section class="container my-2 container-sm">
             <h2 class="color-blue-500 px-4 text-center mt-5 mb-3">Service Map</h2>
-            <div class="bg-grey-100 flex mb-3 align-items-center">
-                <h3 class="color-blue-800 flex-1 text-center">IT Consulting</h3>
-                <ul class="flex-2 p-3">
-                    <li>
-                        <p class="color-grey-500 fw-400 lh-1.5 fs-13px pe-8 my-0">Lorem ipsum dolor sit amet
-                            consectetur, adipisicing elit. Alias voluptate excepturi sapiente
-                            asperiores expedita temporibus doloremque voluptates nihil consectetur magni corporis,
-                            unde,
-                            commodi numquam quod voluptatem eligendi sunt soluta. Magnam?</p>
+
+            <div class="service-banner">
+                <h3 class="service-banner__title">IT Consulting</h3>
+                <ul class="service-banner__description">
+                    <li class="service-banner__description-item">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Alias voluptate excepturi sapiente
+                        asperiores expedita temporibus doloremque voluptates nihil consectetur magni corporis,
+                        unde, commodi numquam quod voluptatem eligendi sunt soluta. Magnam?
                     </li>
-                    <li>
-                        <p class="color-grey-500 fw-400 lh-1.5 fs-13px pe-8 my-0">Lorem ipsum dolor sit amet
-                            consectetur, adipisicing elit. Cupiditate quis laudantium delectus
-                            non corrupti eum voluptatibus! Iste quos debitis vitae neque sed, alias sapiente
-                            voluptate,
-                            rem necessitatibus inventore, quam aspernatur.</p>
+                    <li class="service-banner__description-item">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Cupiditate quis laudantium delectus
+                        non corrupti eum voluptatibus! Iste quos debitis vitae neque sed, alias sapiente
+                        voluptate, rem necessitatibus inventore, quam aspernatur
                     </li>
                 </ul>
+
             </div>
 
-            <div class="bg-grey-100 flex mb-3 align-items-center">
-                <h3 class="color-blue-800 flex-1 text-center">Software <br> Development</h3>
-                <ul class="flex-2 p-3">
-                    <li>
-                        <p class="color-grey-500 fw-400 lh-1.5 fs-13px pe-8 my-0">Lorem ipsum dolor sit amet
-                            consectetur, adipisicing elit. Alias voluptate excepturi sapiente
-                            asperiores expedita temporibus doloremque voluptates nihil consectetur magni corporis,
-                            unde,
-                            commodi numquam quod voluptatem eligendi sunt soluta. Magnam?</p>
+            <div class="service-banner">
+                <h3 class="service-banner__title">Software <br>Development</h3>
+                <ul class="service-banner__description">
+                    <li class="service-banner__description-item">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Alias voluptate excepturi sapiente
+                        asperiores expedita temporibus doloremque voluptates nihil consectetur magni corporis,
+                        unde, commodi numquam quod voluptatem eligendi sunt soluta. Magnam?
                     </li>
-                    <li>
-                        <p class="color-grey-500 fw-400 lh-1.5 fs-13px pe-8 my-0">Lorem ipsum dolor sit amet
-                            consectetur, adipisicing elit. Cupiditate quis laudantium delectus
-                            non corrupti eum voluptatibus! Iste quos debitis vitae neque sed, alias sapiente
-                            voluptate,
-                            rem necessitatibus inventore, quam aspernatur.</p>
+                    <li class="service-banner__description-item">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Cupiditate quis laudantium delectus
+                        non corrupti eum voluptatibus! Iste quos debitis vitae neque sed, alias sapiente
+                        voluptate, rem necessitatibus inventore, quam aspernatur
                     </li>
                 </ul>
+
             </div>
 
-            <div class="bg-grey-100 flex mb-3 align-items-center">
-                <h3 class="color-blue-800 flex-1 text-center">Testing and QA</h3>
-                <ul class="flex-2 p-3">
-                    <li>
-                        <p class="color-grey-500 fw-400 lh-1.5 fs-13px pe-8 my-0">Lorem ipsum dolor sit amet
-                            consectetur, adipisicing elit. Alias voluptate excepturi sapiente
-                            asperiores expedita temporibus doloremque voluptates nihil consectetur magni corporis,
-                            unde,
-                            commodi numquam quod voluptatem eligendi sunt soluta. Magnam?</p>
+            <div class="service-banner">
+                <h3 class="service-banner__title">Testing and QA</h3>
+                <ul class="service-banner__description">
+                    <li class="service-banner__description-item">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Alias voluptate excepturi sapiente
+                        asperiores expedita temporibus doloremque voluptates nihil consectetur magni corporis,
+                        unde, commodi numquam quod voluptatem eligendi sunt soluta. Magnam?
                     </li>
-                    <li>
-                        <p class="color-grey-500 fw-400 lh-1.5 fs-13px pe-8 my-0">Lorem ipsum dolor sit amet
-                            consectetur, adipisicing elit. Cupiditate quis laudantium delectus
-                            non corrupti eum voluptatibus! Iste quos debitis vitae neque sed, alias sapiente
-                            voluptate,
-                            rem necessitatibus inventore, quam aspernatur.</p>
+                    <li class="service-banner__description-item">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Cupiditate quis laudantium delectus
+                        non corrupti eum voluptatibus! Iste quos debitis vitae neque sed, alias sapiente
+                        voluptate, rem necessitatibus inventore, quam aspernatur
                     </li>
                 </ul>
+
             </div>
 
-            <a class="text-center d-block color-blue-700" href="#">View All Services</a>
+            <a class="text-center d-block color-blue-700 services-link" href="#">View All Services</a>
         </section>
 
-        <section class="container mt-4 mb-2">
-            <div class="bg-blue-100 pb-3 position-relative">
+        <section class="container mt-4 mb-2 container-sm">
+            <div class="bg-blue-100 pb-3 position-relative contact-section">
                 <h2 class="color-blue-500 text-center py-3">Contact Us</h2>
                 <svg class="position-absolute top-5 left-5" width="200" height="200" viewBox="0 0 284 284" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -4317,16 +4308,13 @@
                 </svg>
 
                 <form action="#" class="max-width-500 me-auto ms-auto contact-form">
-                    <input class="d-block min-width-500 mb-1 border-grey-200 border-rounded-4px fs-12px fw-200 p-10px"
-                        type="text" name="full-name" id="full-name" placeholder="Full Name">
-                    <input class="d-block min-width-500 mb-1 border-grey-200 border-rounded-4px fs-12px fw-200 p-10px"
-                        type="email" name="email" id="email" placeholder="Email Address">
-                    <input class="d-block min-width-500 mb-1 border-grey-200 border-rounded-4px fs-12px fw-200 p-10px"
-                        type="number" name="phone-number" id="phone-number" placeholder="Phone Number">
+                    <input type="text form-component" name="full-name" id="full-name" placeholder="Full Name">
+                    <input type="email form-component" name="email" id="email" placeholder="Email Address">
+                    <input type="number form-component" name="phone-number" id="phone-number"
+                        placeholder="Phone Number">
                     <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Have anything to say?"
-                        class="d-block min-width-500 mb-1 border-grey-200 border-rounded-4px fs-12px fw-200 p-10px"></textarea>
-                    <input type="submit" name="send-button" id="send-button" value="Send"
-                        class="btn btn-form d-block me-auto ms-auto">
+                        class="form-component"></textarea>
+                    <button class="btn btn--form d-block ms-auto me-auto form-component">Send</button>
 
                 </form>
 
@@ -4347,8 +4335,8 @@
 
 
 
-    <footer class="container my-2">
-        <div class="bg-grey-700 color-white flex align-items-center py-1">
+    <footer class="container my-2 container-sm">
+        <div class="bg-grey-700 color-white flex align-items-center py-1 footer-section">
             <p class="flex-1 text-center fs-12px">Company Name</p>
             <p class="flex-2 ms-8 fs-12px">Company, 2022 &copy; All Rights Reserved</p>
         </div>
